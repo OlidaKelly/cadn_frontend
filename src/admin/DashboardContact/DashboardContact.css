@@ -1,0 +1,31 @@
+.single-contact-link{
+  color: white;
+  background: var(--primary);
+  border: 0;
+  display: flex;
+  margin: auto;
+  border-radius: 0.25rem;
+  font-family: var(--subTitleFont);
+  padding: 0.5rem 0.5rem;
+  cursor: pointer;
+  font-size: 2vh;
+}
+
+.unread-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.unread{
+  color: var(--alert);
+}
+
+.read{
+  color: var(--valid);
+}
+
+.unread circle{
+  color: var(--valid);
+}
+

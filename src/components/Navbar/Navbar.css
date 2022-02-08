@@ -1,0 +1,75 @@
+.Navbar {
+  height: 10vh;
+  padding: 2vh;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 1s ease-out;
+  background-color: var(--primary);
+  border-top: 3px solid rgba(255, 255, 255, 0.7);
+  z-index: 3;
+  border-top: 3px solid rgba(255, 255, 255, 0.7);
+}
+
+.logo {
+  display: none;
+  color: var(--secondary);
+  height: 5vh;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.menu a li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4.5vh;
+  font-weight: 400;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.nav-text {
+  font-family: var(--navFont);
+  display: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .Navbar {
+    position: relative;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.8);
+    border-top: 0 solid rgba(0, 0, 0, 0);
+    height: 7vh;
+  }
+
+  .nav-icon {
+    display: none;
+  }
+
+  .nav-text,
+  .logo {
+    display: inline;
+    font-family: var(--navFont);
+    color: var(--white);
+  }
+
+  .menu {
+    width: auto;
+    min-width: 40%;
+  }
+
+  .menu a li {
+    font-size: 3vh;
+  }
+}

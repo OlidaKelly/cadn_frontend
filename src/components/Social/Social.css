@@ -1,0 +1,12 @@
+.Social {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 15vw;
+}
+
+.Social li {
+  font-size: 3vh;
+  color: var(--secondary);
+  margin-left: 2vw;
+}

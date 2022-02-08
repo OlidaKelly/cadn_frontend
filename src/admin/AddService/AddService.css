@@ -1,0 +1,24 @@
+.AddService .categories {
+  width: 100%;
+  height: 5vh;
+  font-size: 3vh;
+}
+
+.AddService .input-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.AddService .input-container input {
+  width: 7%;
+}
+
+.AddService .input-container label {
+  font-size: 3vh;
+  margin-right: 2vw;
+}
+
+.AddService .input-container select {
+  width: 80%;
+}

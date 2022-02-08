@@ -1,0 +1,42 @@
+.EditSocial .input-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.EditSocial.categories {
+  width: 100%;
+  height: 5vh;
+  font-size: 3vh;
+}
+
+.EditSocial.input-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.EditSocial.input-container input {
+  width: 7%;
+}
+
+.EditSocial.input-container label {
+  font-size: 3vh;
+  margin-right: 2vw;
+}
+
+.EditSocial.input-container select {
+  width: 80%;
+}
+
+.EditSocial .iconSelect {
+  width: 100%;
+  height: 5vh;
+  font-size: 3vh;
+}
+
+.EditSocial .icon {
+  font-size: 5vh;
+  margin-left: 2vw;
+  color: var(--secondary);
+}

@@ -1,0 +1,12 @@
+.NoMatch {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.lost {
+  top: 15vh;
+  height: 30vh;
+}

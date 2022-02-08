@@ -1,0 +1,46 @@
+.Contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 90vh;
+}
+
+.contact-button {
+  font-size: 3rem;
+  margin: 3vh auto;
+}
+
+.Contact form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+
+.mobile-phone {
+  font-size: 10vh;
+}
+
+.contact-phone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--third);
+}
+
+@media screen and (min-width: 1200px) {
+  .Contact {
+    padding: 3vh;
+    height: 83vh;
+  }
+
+  .contact-phone {
+    display: none;
+  }
+
+  .Contact form {
+    width: 60%;
+  }
+}

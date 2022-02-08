@@ -1,0 +1,45 @@
+.single-container{
+  height: 100vh;
+  max-width: 100%;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.single-container span{
+  width: 90%;
+  margin: 0 auto;
+  word-break: break-all;
+  text-align: center;
+}
+
+.single-email{
+  opacity: 0.4;
+  font-style: italic;
+  font-family: var(--subTitleFont);
+}
+
+.single-mailto{
+  background: var(--secondary);
+  color: var(--white);
+  margin-top: 3vh;
+  padding: 1vh 1.5vh;
+  font-size: 5vh;
+  border-radius: 5px;
+}
+
+.contact-back{
+  position: absolute;
+  top: 2vh;
+  left:2vh
+}
+
+.contact-back svg{
+  background: var(--secondary);
+  color: var(--white);
+  padding: 1vh 1.5vh;
+  font-size: 5vh;
+  border-radius: 5px;
+}

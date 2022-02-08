@@ -1,0 +1,111 @@
+.ServiceCard {
+  width: 95vw;
+  min-height: 58vh;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background: white;
+  box-shadow: 2px 2px 3px 1px #6161618a;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.ServiceCard .book {
+  width: 50vw;
+  height: 40px;
+}
+
+.img-service-card {
+  border-radius: 2px;
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.ServiceCard .description {
+  font-family: var(--font);
+  margin-top: 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #332e2e;
+  font-weight: 200;
+  word-break: break-word;
+}
+
+.service-infos-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1vw;
+}
+
+.items-service-card {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  color: var(--secondary);
+}
+
+.price {
+  font-weight: 900;
+}
+
+.ServiceCard .seeMore {
+  color: var(--secondary);
+  font-weight: 400;
+}
+
+.tag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 30px;
+  color: var(--secondary);
+  margin-top: 10px;
+  border: 1px solid var(--secondary);
+  border-radius: 5px;
+  font-size: 90%;
+  opacity: 0.8;
+  overflow: hidden;
+}
+
+.ServiceCard .button-link {
+  width: 80%;
+  margin-top: 50px;
+}
+
+.ServiceCard .button {
+  background: var(--third);
+  width: 100%;
+}
+
+@media screen and (min-width: 1200px) {
+  .ServiceCard {
+    width: 400px;
+    height: 520px;
+    min-height: auto;
+  }
+
+  .ServiceCard h3 {
+    padding: 0;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ServiceCard:not(last-child) {
+    margin-right: 2vw;
+  }
+
+  .ServiceCard .item-container {
+    padding: 5px;
+    flex: 1;
+    justify-content: space-between;
+  }
+}

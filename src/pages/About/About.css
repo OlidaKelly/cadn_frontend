@@ -1,0 +1,39 @@
+.About {
+  background-color: white;
+  padding: 3vh;
+}
+
+.aboutTitle {
+  color: grey;
+}
+
+.blockTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.paragraph {
+  padding: 10px;
+}
+
+.image-about {
+  height: 30vh;
+  max-width: 100%;
+  object-fit: contain;
+  filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.2));
+  border-radius: 5px;
+}
+
+@media screen and (min-width: 1200px) {
+  .paragraph {
+    padding: 5vw;
+    padding-top: 0;
+  }
+
+  .paragraph div {
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+  }
+}

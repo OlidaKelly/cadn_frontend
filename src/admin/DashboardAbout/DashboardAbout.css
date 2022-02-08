@@ -1,0 +1,24 @@
+.EditAbout .categories {
+  width: 100%;
+  height: 5vh;
+  font-size: 3vh;
+}
+
+.EditAbout .input-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.EditAbout .input-container input {
+  width: 7%;
+}
+
+.EditAbout .input-container label {
+  font-size: 3vh;
+  margin-right: 2vw;
+}
+
+.EditAbout .input-container select {
+  width: 80%;
+}

@@ -1,0 +1,40 @@
+.DashboardAside {
+  width: 15vw;
+  height: 95vh;
+  background: var(--dashboardAside);
+  grid-area: b;
+}
+
+.DashboardAside ul a {
+  color: var(--dashboardLink);
+  font-family: var(--subTitleFont);
+}
+
+.DashboardAside ul a li {
+  height: 10vh;
+  padding-left: 1vw;
+  font-size: 3.5vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.DashboardAside ul a li:hover {
+  background-color: var(--third);
+  color: var(--white);
+}
+
+.unseen{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5vh;
+  height: 5vh;
+  padding: 1vh;
+  margin-left: 2vw ;
+  border-radius: 50%;
+  background: var(--alert);
+  color: var(--white);
+  font-size: 2.5vh;
+
+}

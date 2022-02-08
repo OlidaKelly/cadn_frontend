@@ -1,0 +1,80 @@
+.ServiceDescription {
+  min-height: 88vh;
+}
+
+.infos-serviceDescription {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 10vh;
+}
+
+.ServiceDescription .info-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 20vh;
+  width: 100%;
+}
+
+.ServiceDescription hr {
+  width: 90%;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.2) 0%,
+    rgba(255, 255, 255, 0.36458333333333337) 60%
+  );
+  opacity: 0.2;
+}
+
+.ServiceDescription h3 {
+  color: var(--white);
+  padding: 0.5vh;
+  width: 90%;
+  background: linear-gradient(
+    90deg,
+    var(--secondary) 0%,
+    rgba(255, 255, 255, 0) 90%
+  );
+}
+
+.ServiceDescription .alternative-title {
+  transform: translateX(10%);
+  text-align: right;
+  background: linear-gradient(
+    -90deg,
+    var(--secondary) 0%,
+    rgba(255, 255, 255, 0) 90%
+  );
+}
+
+.ServiceDescription .infos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 10vw;
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.ServiceDescription .infos svg {
+  color: var(--secondary);
+}
+
+.ServiceDescription .text {
+  padding: 5vw;
+}
+
+@media screen and (min-width: 1200px) {
+  .ServiceDescription .infos {
+    font-size: 4vh;
+    width: 10vw;
+  }
+
+  .ServiceDescription h3 {
+    width: 50%;
+  }
+  .ServiceDescription .alternative-title {
+    transform: translateX(100%) !important;
+  }
+}

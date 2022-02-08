@@ -1,0 +1,46 @@
+.Services-page {
+  text-align: center;
+  min-height: 83vh;
+}
+
+.div-servicecard {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+@media screen and (min-width: 1200px) {
+  .Services-page {
+    background-position: 0 35%;
+  }
+
+  .Services-page .items {
+    justify-content: flex-start;
+    min-height: auto;
+  }
+
+  .homeTitle {
+    font-size: 20vh;
+    text-align: right;
+  }
+
+  .job {
+    font-size: 3.5vh;
+    font-weight: 300;
+  }
+
+  .Home .title-container {
+    padding: 5vw;
+    padding-top: 5vh;
+  }
+
+  .Services-page .items .div-servicecard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+}

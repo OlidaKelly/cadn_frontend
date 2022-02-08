@@ -1,0 +1,48 @@
+.DashboardNavbar {
+  height: 5vh;
+  width: 100vw;
+  padding: 2vh;
+  background: var(--dashboardNavbar);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  grid-area: a;
+}
+
+.logout {
+  padding: 2vh 1vh;
+  font-size: 2.5vh !important;
+  margin-right: 1vw;
+}
+
+.logout svg {
+  margin-left: 1vw;
+  font-size: 2.5vh;
+}
+
+.logout p {
+  font-size: 2vh;
+}
+
+.home {
+  color: var(--white);
+  font-size: 3vh;
+}
+
+.welcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--white);
+  font-size: 2vh;
+}
+
+.welcome svg {
+  margin-right: 0.5vw;
+}
+
+.dashboard-Navbar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

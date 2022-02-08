@@ -1,0 +1,10 @@
+.Category {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 5vh;
+}
+
+.Category h2 {
+  line-height: 1 !important;
+}
