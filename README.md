@@ -8,7 +8,10 @@
 ### Run Server 
 - ```npm start```
 
-### Tools
+### Entrypoint available :
+Website : 'http://localhost:3000/'
+Dashboard : 'http://localhost:3000/cynthia-login'
+
 
 #### Already install :
 - react-router
